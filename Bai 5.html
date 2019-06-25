@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let sum=sotien=parseInt(prompt("Nhap so tien cho vay: "));
+        let sothang=parseInt(prompt("Nhap so thang cho vay: "));
+        let laisuat=parseInt(prompt("Nhap lai suat 1 thang (%) : "));
+        for (let i=1;i<=sothang;i++){
+            sum*=(1+laisuat/100);
+        }
+        alert("So tien phai tra la: "+sum);
+    </script>
+</body>
+</html>
